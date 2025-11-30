@@ -1,0 +1,30 @@
+User-agent: *
+Allow: /
+
+# Your sitemap on GitHub Pages
+Sitemap: https://cruzalexandar.github.io/Garuda-links/sitemap.xml
+
+# Explicit allow for pages you want indexed (mirroring your old setup)
+Allow: /blog.html
+Allow: /index.html
+
+# Allow discovery of external redirects or link pages (GitHub Pages style)
+Allow: /github
+Allow: /linkedin
+Allow: /twitter
+
+# Crawl rate suggestion (still valid and kept from your original)
+Crawl-delay: 1
+
+# Extra clarity for search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Googlebot-Mobile
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
