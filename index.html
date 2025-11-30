@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Morgan - Senior Software Engineer & Cloud Architect</title>
+    <meta name="description" content="Senior Software Engineer specializing in cloud-native applications, distributed systems, and full-stack development. 8+ years of experience building scalable solutions.">
+    
+    <!-- Schema.org markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Alex Morgan",
+        "jobTitle": "Senior Software Engineer",
+        "url": "https://lookauth.com.ng",
+        "sameAs": [
+            "https://github.com/alex-morgan",
+            "https://linkedin.com/in/alex-morgan-dev",
+            "https://twitter.com/alexmorgan_dev",
+            "https://stackoverflow.com/users/1234567/alex-morgan"
+        ],
+        "worksFor": {
+            "@type": "Organization",
+            "name": "Tech Innovations Inc."
+        },
+        "knowsAbout": [
+            "Cloud Architecture",
+            "Distributed Systems",
+            "Kubernetes",
+            "Microservices",
+            "TypeScript",
+            "Go",
+            "AWS",
+            "System Design"
+        ]
+    }
+    </script>
+    
+    <style>
+        /* CSS Reset and Variables */
+        :root {
+            --primary: #2563eb;
+            --primary-dark: #1d4ed8;
+            --secondary: #64748b;
+            --accent: #06b6d4;
+            --text: #1e293b;
+            --text-light: #64748b;
+            --background: #ffffff;
+            --background-alt: #f8fafc;
+            --border: #e2e8f0;
+            --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+            --border-radius: 8px;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            background: var(--background);
+        }
+
+        /* Typography */
+        h1, h2, h3, h4 {
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            background: linear-gradient(135deg, var(--primary), var(--accent));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        h2 {
+            font-size: 2.25rem;
+            color: var(--text);
+            position: relative;
+            display: inline-block;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary), var(--accent));
+            border-radius: 2px;
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            color: var(--text);
+        }
+
+        /* Layout */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        section {
+            padding: 5rem 0;
+        }
+
+        section:nth-child(even) {
+            background: var(--background-alt);
+        }
+
+        /* Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            border-bottom: 1px solid var(--border);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text);
+            font-weight: 500;
+            transition: var(--transition);
+            position: relative;
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        .nav-links a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background: var(--primary);
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        #hero {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .hero-content h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #fff, #e2e8f0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-content .tagline {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 1rem 2rem;
+            background: var(--accent);
+            color: white;
+            text-decoration: none;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg);
+            background: var(--primary);
+        }
+
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .profile-image {
+            width: 100%;
+            max-width: 300px;
+            border-radius: 50%;
+            box-shadow: var(--shadow-lg);
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            color: var(--text-light);
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+
+        .skill-category:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .skill-category h3 {
+            color: var(--primary);
+            margin-bottom: 1.5rem;
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .skill-list li:last-child {
+            border-bottom: none;
+        }
+
+        /* Projects Section */
+        .project-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .project-card {
+            background: white;
+            padding: 2rem;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .project-card h3 {
+            color: var(--primary);
+            margin-bottom: 1rem;
+        }
+
+        .project-card p {
+            color: var(--text-light);
+            margin-bottom: 1rem;
+        }
+
+        .project-link {
+            color: var(--accent);
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .project-link:hover {
+            color: var(--primary);
+        }
+
+        /* Contact Section */
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+        }
+
+        .contact-info {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow);
+        }
+
+        .contact-item a {
+            color: var(--text);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .contact-item a:hover {
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            background: var(--text);
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .footer-links a {
+            color: white;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .footer-links a:hover {
+            color: var(--accent);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2.5rem;
+            }
+            
+            h2 {
+                font-size: 2rem;
+            }
+
+            .about-content,
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            .hero-content h1 {
+                font-size: 2.5rem;
+            }
+
+            .project-links {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 0.6s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <strong>Alex Morgan</strong>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="/blog.html">Technical Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content fade-in">
+                <h1>Alex Morgan</h1>
+                <p class="tagline">Senior Software Engineer & Cloud Architect</p>
+                <p>Building scalable, cloud-native solutions with 8+ years of experience in distributed systems and full-stack development</p>
+                <a href="#contact" class="cta-button">Get In Touch</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <div>
+                    <!-- Placeholder for profile image -->
+                    <div class="profile-image" style="background: linear-gradient(135deg, var(--primary), var(--accent)); height: 300px; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold;">
+                        Profile Image
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a passionate Senior Software Engineer with over 8 years of experience specializing in cloud architecture, distributed systems, and building scalable applications. I thrive on solving complex technical challenges and delivering robust, maintainable solutions.</p>
+                    
+                    <p>My expertise spans across the full software development lifecycle, from designing microservices architectures to implementing CI/CD pipelines and optimizing cloud infrastructure. I'm proficient in multiple programming languages and have extensive experience with major cloud platforms.</p>
+                    
+                    <p>Currently, I lead a team of developers at Tech Innovations Inc., where we're building next-generation SaaS platforms serving millions of users worldwide. I'm passionate about mentoring junior developers, contributing to open source, and staying at the forefront of emerging technologies.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Backend Development</h3>
+                    <ul class="skill-list">
+                        <li>Node.js & TypeScript</li>
+                        <li>Go (Golang)</li>
+                        <li>Python & Django</li>
+                        <li>Java & Spring Boot</li>
+                        <li>REST & GraphQL APIs</li>
+                        <li>Microservices Architecture</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Cloud & DevOps</h3>
+                    <ul class="skill-list">
+                        <li>AWS (EC2, S3, Lambda, RDS)</li>
+                        <li>Docker & Kubernetes</li>
+                        <li>Terraform & CloudFormation</li>
+                        <li>CI/CD (GitHub Actions, Jenkins)</li>
+                        <li>Monitoring & Observability</li>
+                        <li>Serverless Architecture</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Frontend Development</h3>
+                    <ul class="skill-list">
+                        <li>React & Next.js</li>
+                        <li>Vue.js & Nuxt.js</li>
+                        <li>TypeScript</li>
+                        <li>Tailwind CSS</li>
+                        <li>Web Performance Optimization</li>
+                        <li>PWA & Responsive Design</li>
+                    </ul>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Databases & Tools</h3>
+                    <ul class="skill-list">
+                        <li>PostgreSQL & MongoDB</li>
+                        <li>Redis & Elasticsearch</li>
+                        <li>Message Queues (RabbitMQ, SQS)</li>
+                        <li>Git & GitHub</li>
+                        <li>Linux & Bash Scripting</li>
+                        <li>Agile Methodologies</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects & Contributions</h2>
+            <div class="project-links">
+                <a href="https://github.com/alex-morgan" class="project-card" rel="noopener noreferrer" target="_blank">
+                    <h3>GitHub Profile</h3>
+                    <p>Explore my open-source contributions, personal projects, and code samples. Featured repositories include distributed system prototypes, cloud automation tools, and full-stack applications.</p>
+                    <span class="project-link">github.com/alex-morgan →</span>
+                </a>
+
+                <a href="https://linkedin.com/in/alex-morgan-dev" class="project-card" rel="noopener noreferrer" target="_blank">
+                    <h3>LinkedIn Profile</h3>
+                    <p>Connect with me professionally. View my detailed work experience, recommendations, and professional achievements in the software engineering field.</p>
+                    <span class="project-link">linkedin.com/in/alex-morgan-dev →</span>
+                </a>
+
+                <a href="/blog.html" class="project-card">
+                    <h3>Technical Research Blog</h3>
+                    <p>Explore my comprehensive research on cybersecurity, financial systems, and digital identity. Featuring analysis from authoritative sources and technical deep dives.</p>
+                    <span class="project-link">Read Research Articles →</span>
+                </a>
+
+                <a href="https://stackoverflow.com/users/1234567/alex-morgan" class="project-card" rel="noopener noreferrer" target="_blank">
+                    <h3>Stack Overflow</h3>
+                    <p>Check out my technical answers and contributions to the developer community. Top tags include Kubernetes, AWS, Node.js, and system design.</p>
+                    <span class="project-link">stackoverflow.com/users/alex-morgan →</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <strong>Email:</strong>
+                        <a href="mailto:alex@lookauth.com.ng">alex@lookauth.com.ng</a>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Location:</strong>
+                        <span>San Francisco, CA</span>
+                    </div>
+                    <div class="contact-item">
+                        <strong>Available for:</strong>
+                        <span>Consulting & Mentoring</span>
+                    </div>
+                </div>
+                <div>
+                    <p>I'm always interested in hearing about new opportunities, interesting projects, or technical challenges. Whether you're looking for consulting, mentorship, or just want to discuss technology, feel free to reach out!</p>
+                    <br>
+                    <p>I'm particularly passionate about:</p>
+                    <ul>
+                        <li>Cloud-native architecture and migration</li>
+                        <li>Scalable system design</li>
+                        <li>Open source contributions</li>
+                        <li>Technical team leadership</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Alex Morgan. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="https://github.com/alex-morgan" rel="noopener noreferrer" target="_blank">GitHub</a>
+                <a href="https://linkedin.com/in/alex-morgan-dev" rel="noopener noreferrer" target="_blank">LinkedIn</a>
+                <a href="https://twitter.com/alexmorgan_dev" rel="noopener noreferrer" target="_blank">Twitter</a>
+                <a href="/privacy.html">Privacy Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add fade-in animation to sections on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        // Observe all sections for animation
+        document.querySelectorAll('section').forEach(section => {
+            section.style.opacity = '0';
+            section.style.transform = 'translateY(20px)';
+            section.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(section);
+        });
+    </script>
+</body>
+</html>
