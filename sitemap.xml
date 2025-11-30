@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-    <url>
-        <loc>https://alexmorgan.dev/</loc>
-        <lastmod>2024-01-15</lastmod>
-        <changefreq>monthly</changefreq>
-        <priority>1.0</priority>
-    </url>
+
+  <!-- Root GitHub Pages site -->
+  <url>
+    <loc>https://cruzalexandar.github.io/Garuda-links/</loc>
+    <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+
+  <!-- README (rendered on GitHub Pages only via HTML conversion) -->
+  <url>
+    <loc>https://cruzalexandar.github.io/Garuda-links/README</loc>
+    <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- Optional: direct link to GitHub README source (valid URL, safe to include) -->
+  <url>
+    <loc>https://github.com/cruzalexandar/Garuda-links/blob/main/README.md</loc>
+    <priority>0.6</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
 </urlset>
