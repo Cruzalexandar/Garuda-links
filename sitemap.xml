@@ -115,53 +115,6 @@
   </url>
 
   <!-- Additional placeholder slots for future URLs -->
-  <!-- URL 14 -->
-  <url>
-    <loc><!-- paste your URL 14 here --></loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 15 -->
-  <url>
-    <loc><!-- paste your URL 15 here --></loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 16 -->
-  <url>
-    <loc><!-- paste your URL 16 here --></loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 17 -->
-  <url>
-    <loc><!-- paste your URL 17 here --></loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 18 -->
-  <url>
-    <loc><!-- paste your URL 18 here --></loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 19 -->
-  <url>
-    <loc><!-- paste your URL 19 here --></loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 20 -->
-  <url>
-    <loc><!-- paste your URL 20 here --></loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
+ 
 
 </urlset>
