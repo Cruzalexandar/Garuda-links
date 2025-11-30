@@ -4,7 +4,7 @@ links that show SEO poisoning
 Here are links used in the research:
 - [Link 1]( https://apps.juniper.net/feature-explorer/search.html?q=chase%20bank%20logs%20for%20sale%2C%E3%80%90Visit%20site%3A%20vladfox.com%E3%80%91buy%20bank%20logs%202022%2C%20Buy%20PayPal%20flip%20online%2C%20free%20bank%20logs%20with%20email%20access%202021%2Cfree%20chase%20bank%20logs%2Cbank%20logs%20auto%20shop%2C%20Buy%20Cash%20App%20Flip%20Online%2C%20bank%20logs%2025)
 - 
-- [Link 2]([https://example.org/search?q=something](https://artquest.org.uk/?s=bank+logs+telegram+channel%2C%E3%80%90Visit+site%3A+vladfox.com%E3%80%91fresh+bank+logs%2Csite+to+buy+bank+logs+with+email+access%2Cfree+bank+logs+with+email+access+2022%2Cbank+logs+site+2022%2Cchase+bank+logs+for+sale%2Cbank+logs+telegram+channel%2Cbank+logs+with+email+access%2Cbuy+bank+logs%2Cbuy+bank+logs+telegram%2Cfree+bank+logs+with+email+access+2021%2C....ef6c))
+- [Link 2](https://example.org/search?q=something](https://artquest.org.uk/?s=bank+logs+telegram+channel%2C%E3%80%90Visit+site%3A+vladfox.com%E3%80%91fresh+bank+logs%2Csite+to+buy+bank+logs+with+email+access%2Cfree+bank+logs+with+email+access+2022%2Cbank+logs+site+2022%2Cchase+bank+logs+for+sale%2Cbank+logs+telegram+channel%2Cbank+logs+with+email+access%2Cbuy+bank+logs%2Cbuy+bank+logs+telegram%2Cfree+bank+logs+with+email+access+2021%2C....ef6c)
 - 
 - [Link 3](https://verafin.com/?s=bank+logs+telegram+channel%2C%E3%80%90Visit+site%3A+vladfox.com%E3%80%91fresh+bank+logs%2Csite+to+buy+bank+logs+with+email+access%2Cfree+bank+logs+with+email+access+2022%2Cbank+logs+site+2022%2Cchase+bank+logs+for+sale%2Cbank+logs+telegram+channel%2Cbank+logs+with+email+access%2Cbuy+bank+logs%2Cbuy+bank+logs+telegram%2Cfree+bank+logs+with+email+access+2021%2C....ef6c)
 - 
