@@ -8,119 +8,24 @@
     <changefreq>weekly</changefreq>
   </url>
 
-  <!-- README locations -->
+  <!-- GitHub repo page -->
+  <url>
+    <loc>https://github.com/cruzalexandar/Garuda-links</loc>
+    <priority>0.9</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+
+  <!-- README files -->
   <url>
     <loc>https://github.com/cruzalexandar/Garuda-links/blob/main/README.md</loc>
-    <priority>0.9</priority>
+    <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
 
   <url>
     <loc>https://raw.githubusercontent.com/cruzalexandar/Garuda-links/main/README.md</loc>
-    <priority>0.9</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- SANITIZED SEO TEST URLS -->
-
-  <!-- URL 1 -->
-  <url>
-    <loc>https://apps.juniper.net/feature-explorer/search.html?q=chase%20bank%20[redacted]%2C[redacted]buy%20[redacted]%202022%2C%20[redacted]PayPal%20[redacted]%2Cfree%20bank%20[redacted]%202021%2Cfree%20chase%20bank%20[redacted]%2Cbank%20[redacted]%2C%20Buy%20[redacted]%20Online%2C%20bank%20[redacted]25</loc>
     <priority>0.8</priority>
     <changefreq>monthly</changefreq>
   </url>
-
-  <!-- URL 2 -->
-  <url>
-    <loc>https://artquest.org.uk/?s=bank+%5Bredacted%5D+channel%2C%5Bredacted%5Dfresh+bank+%5Bredacted%5D%2Csite+to+buy+bank+%5Bredacted%5D%2Cfree+bank+%5Bredacted%5D+2022%2Cbank+%5Bredacted%5D+2022%2Cchase+bank+%5Bredacted%5D%2Cbank+%5Bredacted%5D+channel%2Cbank+%5Bredacted%5D+access%2Cbuy+bank+%5Bredacted%5D%2C....ef6c</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 3 -->
-  <url>
-    <loc>https://verafin.com/?s=bank+%5Bredacted%5D+channel%2C%5Bredacted%5Dfresh+bank+%5Bredacted%5D%2Csite+to+buy+bank+%5Bredacted%5D%2Cfree+bank+%5Bredacted%5D+2022%2Cbank+%5Bredacted%5D+2022%2Cchase+bank+%5Bredacted%5D%2Cbank+%5Bredacted%5D+channel%2Cbank+%5Bredacted%5D+access%2Cbuy+bank+%5Bredacted%5D%2C....ef6c</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 4 -->
-  <url>
-    <loc>https://www.alabamalegalhelp.org/search?channel=self-help-legal-information&amp;q=how%20to%20get%20real%20id%20license%2C%5Bredacted%5Dregister%20to%20get%20driver%20license%2Cbuy%20your%20license%20online%2Cwhere%20to%20get%20license%20near%20me%2Chow%20to%20get%20motorcycle%20license%2C...6ed2&amp;category=general-information&amp;contenttype=Resource&amp;lang=EN&amp;page=1&amp;topic=public-benefits</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 5 -->
-  <url>
-    <loc>https://www.ottokemi.com/product/default.aspx?search=paypal%20fees%20for%20receiving%20money%20international%2C%5Bredacted%5Dcan%20i%20use%20paypal%20internationally%2Chow%20to%20withdraw%20from%20paypal%2Chow%20to%20send%20using%20paypal%2Cpaypal%20transfer%20international%2Cvenmo%20paypal%2Capps%20similar%20to%20venmo%2C...44e9</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 6 -->
-  <url>
-    <loc>https://www.spineandlabel.com/index.php?route=product/search&amp;search=website%20flipping%20for%20beginners%2C%5Bredacted%5Dbest%20way%20to%20flip%20money%20legally%2C%20business%20account%20transfer%2C%20best%20vendor%20online%2C%20flip%20money%2C%20flip%201000%20dollars%2C%20recover%20from%20scam%2Cstart%20online%20flip%2C...6390&amp;description=true</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 7 -->
-  <url>
-    <loc>https://ph.health.mil/search/Pages/Results.aspx?k=%5Bredacted%5D%2Cdark%20web%20%5Bredacted%5D%2Ccvv%20site%20list%202021%2Cnon%20vbv%20%5Bredacted%5D%2Ccard%20without%20cvv%2C%5Bredacted%5D%20card%20sites%2C... </loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 8 -->
-  <url>
-    <loc>https://www.socialworkengland.org.uk/umbraco/surface/searchregister/results?keywords=%5Bredacted%5Dcvv%20%5Bredacted%5D%2Ccredit%20card%20%5Bredacted%5D%2Cnon%20vbv%20high%20balance%20bins%202021%2C%5Bredacted%5Dshop%2Cbank%20logins%2C... </loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 9 -->
-  <url>
-    <loc>https://ph.health.mil/search/Pages/Results.aspx?k=%5Bredacted%5D%2Cdark%20web%20%5Bredacted%5D%2Ccvv%20site%20list%202021%2Cnon%20vbv%20%5Bredacted%5D%2C...#k=[redacted]#l=1033</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 10 -->
-  <url>
-    <loc>https://gateway.euro.who.int/en/search/?q=Flip%20Money%2C%20%5Bredacted%5D%2Cbuy%20venmo%2C%20buy%20chase%20bank%20%5Bredacted%5D%2C%20Zelle%20transfers%2C%20best%20place%20to%20buy%20bank%20%5Bredacted%5D%2Capps%20that%20pay%20you%20money%2C... </loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 11 -->
-  <url>
-    <loc>https://www.disasterassistance.gov/search/%5Bredacted%5D%2Cbank%20%5Bredacted%5D%20shop%2Ccvv%20%5Bredacted%5D%20for%20app%2Cwhere%20can%20add%20money%20to%20app%2C... </loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 12 -->
-  <url>
-    <loc>https://www.nacdl.org/search?term=%5Bredacted%5Dfree+bank+%5Bredacted%5D+2025%2C+Buy+bank+%5Bredacted%5D%2C+best+site%20for%20bank+%5Bredacted%5D%2C...66b8</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- URL 13 -->
-  <url>
-    <loc>https://my.park.edu/ICS/?tool=search&amp;query=free%20bank%20%5Bredacted%5Dattached%20bank%20%5Bredacted%5Dsale%20powells%20fargo%20logs%20site%202022%2Cbuy%20bank%20%5Bredacted%5D%2C...6386</loc>
-    <priority>0.8</priority>
-    <changefreq>monthly</changefreq>
-  </url>
-
-  <!-- Placeholder URLs remain unchanged -->
-  <url><loc><!-- paste your URL 14 here --></loc><priority>0.8</priority></url>
-  <url><loc><!-- paste your URL 15 here --></loc><priority>0.8</priority></url>
-  <url><loc><!-- paste your URL 16 here --></loc><priority>0.8</priority></url>
-  <url><loc><!-- paste your URL 17 here --></loc><priority>0.8</priority></url>
-  <url><loc><!-- paste your URL 18 here --></loc><priority>0.8</priority></url>
-  <url><loc><!-- paste your URL 19 here --></loc><priority>0.8</priority></url>
-  <url><loc><!-- paste your URL 20 here --></loc><priority>0.8</priority></url>
 
 </urlset>
